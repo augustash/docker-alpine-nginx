@@ -1,4 +1,4 @@
-FROM augustash/alpine-base-s6:1.0.0
+FROM augustash/alpine-base-s6:1.0.1
 
 # environment
 ENV NGINX_DH_SIZE 2048
