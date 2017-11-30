@@ -4,9 +4,20 @@ This file contains all software versions used within a version of the image itse
 
 ## Latest
 
-Same as v1.0.1.
+Same as v1.0.2.
 
 Usage: `augustash/alpine-nginx` or `augustash/alpine-nginx:latest`.
+
+## v1.0.2
+
+- [augustash/alpine-base-s6](https://github.com/augustash/docker-alpine-base-s6): v1.0.2
+- [nginx](http://nginx.org/): v1.10.3-r1
+
+*Improvements:*
+
+- Updates base image.
+
+Usage: `augustash/alpine-nginx:1.0.2`.
 
 ## v1.0.1
 
