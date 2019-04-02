@@ -6,5 +6,5 @@ if [[ "$(ls -A /src)" ]]; then
 else
     echo "============> Generating sample index page"
     cp /defaults/index.html /src
-    chown -R ash:ash /src
+    chown -R "${PUID}:${PGID}" /src
 fi
