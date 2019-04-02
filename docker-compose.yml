@@ -3,7 +3,7 @@ services:
   alpine-nginx:
     build:
       context: .
-    image: augustash/alpine-nginx:2.0.0
+    image: augustash/alpine-nginx:3.0.0
     labels:
       - "com.augustash.description=August Ash Alpine Nginx Image"
       - "com.augustash.development-only"
